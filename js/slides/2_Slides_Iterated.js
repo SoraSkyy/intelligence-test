@@ -290,7 +290,7 @@ SLIDES.push({
 
 	},
 	onend: function(self){
-		self.clear();
+		//self.clear();
 	}
 
 });

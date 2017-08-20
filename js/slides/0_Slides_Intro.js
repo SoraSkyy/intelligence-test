@@ -113,7 +113,7 @@ SLIDES.push({
 		self.add({
 			id:"intro_text", type:"TextBox",
 			x:130, y:10, width:700, height:500, align:"center",
-			text_id:"intro"
+			text_id:"intro_modified"
 		});
 
 		// Button
