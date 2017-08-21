@@ -38,7 +38,7 @@ SLIDES.push({
 			x:130, y:10, width:700, height:100, align:"center"
 		});
 		self.add({
-			id:"btmWords", type:"TextBox", text_id:"iterated_intro_btm",
+			id:"btmWords", type:"TextBox", text_id:"iterated_intro_btm_first",
 			x:130, y:410, width:700, height:100, align:"center"
 		});
 
@@ -290,7 +290,7 @@ SLIDES.push({
 
 	},
 	onend: function(self){
-		//self.clear();
+		self.clear();
 	}
 
 });

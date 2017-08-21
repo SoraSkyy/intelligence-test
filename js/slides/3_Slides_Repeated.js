@@ -4,7 +4,7 @@ SLIDES.push({
 
   onjump: function(self){
 
-    Tournament.resetGlobalVariables();
+    /*Tournament.resetGlobalVariables();
 
     // Iterated Simulation
     self.add({id:"iterated", type:"Iterated", x:130, y:133});
@@ -23,7 +23,7 @@ SLIDES.push({
       align:"center", color:"#aaa", size:17,
       text_id:"label_them"
     });
-
+*/
   },
 
   onstart: function(self){
@@ -57,7 +57,7 @@ SLIDES.push({
       x:130, y:10, width:700, height:100, align:"center"
     });
     self.add({
-      id:"btmWords", type:"TextBox", text_id:"iterated_intro_btm",
+      id:"btmWords", type:"TextBox", text_id:"iterated_intro_btm_second",
       x:130, y:410, width:700, height:100, align:"center"
     });
 
@@ -258,7 +258,7 @@ SLIDES.push({
     self.add({
       id:"score3", type:"TextBox",
       x:290, y:62, width:639, height:123,
-      text: Words.get(scoreTextID)+" "+Words.get("iterated_score_end")+"<br><br>"+Words.get("who_were")
+      text: Words.get(scoreTextID)+" "+Words.get("iterated_score_end")+"<br><br>"+Words.get("who_were_second")
     });
 
     //////////////////////////////
@@ -297,13 +297,13 @@ SLIDES.push({
     self.add({
       id:"next", type:"TextBox",
       x:104, y:478, width:447, height:37,
-      text_id: "characters_teaser"
+      text_id: "characters_teaser_second"
     });
 
     // Next Button!
     self.add({
       id:"next_button", type:"Button", x:544, y:471, size:"long",
-      text_id:"characters_button",
+      text_id:"characters_button_second",
       message:"slideshow/scratch"
     });
 
